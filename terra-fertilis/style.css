@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.logo{
+    width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    border: 2px solid white;
+    /* top, rigth, bottom, left
+    padding: 5px 20px 5px 20px; */
+
+    /* top e bottom, rigth e left */
+    padding: 5px 20px;
+    
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px; */
+
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Croissant One', cursive;
+}
+
+.menu ul li a:hover, .menu ul li a.link-ativo{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: 2px solid black;
+}
+
+/* .menu ul li a.link-ativo{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: 2px solid red;
+} */
+
+#home {
+    background: linear-gradient(rgba(44, 40, 40, 0.514), rgba(48,42,42,0.5)), url(./img/background1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .menu{
+    margin-right: 40vw;
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#home main{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #acd4ac;
+    font-size: 170px;
+    font-family: 'Croissant One', cursive;
+}
