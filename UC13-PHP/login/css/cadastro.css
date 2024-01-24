@@ -1,0 +1,13 @@
+.cadastro-container{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
